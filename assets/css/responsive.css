@@ -1,0 +1,44 @@
+/* Tablet */
+@media (max-width: 1000px) {
+    .header .content{
+        padding: 20px 20px;
+    }
+
+    .header-list a{
+        padding: 10px;
+    }
+
+    .header-tittle{
+        left: 5%;
+    }
+    
+    .header-tittle{
+        width: 85%;
+    }
+    
+}
+
+
+/* Mobile */
+@media (max-width: 670px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .header-list{
+        display: none;
+    }
+
+    .header-tittle h1{
+        font-size: 42px;
+    }
+
+    .header-tittle p{
+        margin-top: 10px;
+    }
+
+    .header-logo{
+        margin-left: 0;
+    }
+
+}
