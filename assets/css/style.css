@@ -115,7 +115,8 @@ body {
 
 .footer {
     padding: 40px 0;
-    background-color: white;
+    background-color: whitesmoke;
+    margin-top: 100px;
 }
 
 .footer .social {
@@ -193,6 +194,7 @@ header {
 .container-reviews {
     height: 300px;
     text-align: center;
+    padding: 80px;
 }
 
 .textreviews {
@@ -216,7 +218,7 @@ header {
 /* service */
 
 .service {
-    height: 60vh;
+    height:60vh;
     width: 100%;
     padding: 30px 100px;
 }
@@ -249,7 +251,7 @@ header {
 .service-icons img {
     width: 60px;
     height: 60px;
-    background-color: aqua;
+    background-color: blueviolet;
     border-radius: 100%;
     padding: 10px;
 }
