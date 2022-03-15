@@ -1,44 +1,42 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header{
+.header {
     width: 100%;
     height: 100vh;
     background: url("../img/david-marcu-Op5JMbkOqi0-unsplash.jpg") no-repeat center fixed;
     background-size: cover;
 }
 
-
-.header .content{
+.header .content {
     padding: 30px 100px;
 }
 
-.header-tittle{
+.header-tittle {
     width: 50%;
     position: absolute;
     top: 30%;
-    left: 9%;    
-
+    left: 9%;
 }
 
-.header-tittle h1{
+.header-tittle h1 {
     font-size: 56px;
     color: #fff;
 }
 
-.header-tittle p{
+.header-tittle p {
     color: #fff;
     margin: 30px 0;
 }
 
-.header-logo{
+.header-logo {
     float: left;
     color: aliceblue;
     margin-left: 25px;
@@ -50,12 +48,11 @@ body{
     border-radius: 5px;
 }
 
-.header-list{
+.header-list {
     float: right;
-    
 }
 
-.header-list a{
+.header-list a {
     float: left;
     text-decoration: none;
     margin: 0 10px;
@@ -67,20 +64,20 @@ body{
     transition: transform .5s;
 }
 
-.header-list a:hover{
+.header-list a:hover {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.header-list .contact{
+.header-list .contact {
     border: 3px solid blueviolet;
     margin-top: 0 !important;
     transition: transform .5s;
     border-radius: 2px;
-} 
+}
 
-.header-list .contact:hover{
+.header-list .contact:hover {
     background-color: blueviolet;
     color: #fff;
     -ms-transform: scale(1.1);
@@ -88,7 +85,7 @@ body{
     transform: scale(1.1);
 }
 
-.btn{
+.btn {
     background-color: blueviolet;
     padding: 10px 20px;
     border-radius: 5px;
@@ -98,7 +95,7 @@ body{
     border: 3px solid blueviolet;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: unset;
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -111,4 +108,106 @@ body{
     font-size: 32px;
     padding: 0 20px;
     display: none;
+}
+
+
+/* bagian section footer & reviews */
+
+.footer {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover {
+    opacity: 1;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+header {
+    margin-top: 1000px;
+}
+
+.container2 {
+    height: 400px;
+    width: 100%;
+    background-color: #c1c1c1;
+    display: flex;
+}
+
+.profile-icon img {
+    width: 80px;
+    margin-top: 30px;
+}
+
+.container-reviews {
+    height: 300px;
+    text-align: center;
+}
+
+.textreviews {
+    text-align: center;
+    padding: 20px;
+}
+
+.textreviews p {
+    padding: 5px;
+}
+
+.bintang li {
+    width: 15px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    right: 30px;
 }
