@@ -388,7 +388,17 @@ header {
 }
 
 .kanan {
-    background-image: url(/assets/img/iPhone_13.png);
+    background-image: url(../img/iPhone_13.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    margin-right: -100px;
+    margin-top: 100px;
+}
+
+.kanan1 {
+    background-image: url(../img/MacBook_Pro_16.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
