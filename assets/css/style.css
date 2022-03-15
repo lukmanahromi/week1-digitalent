@@ -211,3 +211,220 @@ header {
     position: relative;
     right: 30px;
 }
+
+
+/* service */
+
+.service {
+    height: 60vh;
+    width: 100%;
+    padding: 30px 100px;
+}
+
+.service-title {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.service-title h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.service-title p {
+    width: 50%;
+    margin: auto;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.service-content {
+    display: flex;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.service-icons img {
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.service-float {
+    padding: 2%;
+}
+
+.service-text h1 {
+    margin: 2%;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.service-text p {
+    font-size: 12px;
+    color: black;
+    opacity: 0.7;
+}
+
+
+/* end */
+
+
+/* faetured */
+
+.featured {
+    background-color: #FDF6EC;
+    height: 130vh;
+    width: 100%;
+}
+
+.featured-box {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.featured-img {
+    padding: 30px 100px;
+}
+
+.featured-img img {
+    width: 500px;
+    padding-top: 20px;
+}
+
+.featured-text {
+    padding: 30px 100px;
+    padding-left: 20px;
+}
+
+.featured-text h1 {
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.featured-text p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: 95%;
+    letter-spacing: 1px;
+    color: black;
+    opacity: 0.7;
+}
+
+.featured-text ul {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.featured-text ul li {
+    list-style: circle;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.featured-text-bottom {
+    padding: 30px 100px;
+    padding-right: 20px;
+}
+
+.featured-text-bottom h1 {
+    padding-top: 20px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.featured-text-bottom p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: 95%;
+    letter-spacing: 1px;
+    color: black;
+    opacity: 0.7;
+}
+
+.featured-text-bottom ul {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.featured-text-bottom ul li {
+    list-style: circle;
+    font-size: 12px;
+    margin: 2px;
+}
+
+
+/* end */
+
+
+/* dwadadwad */
+
+.container-hape {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+    height: 50vh;
+}
+
+.kiri {
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kanan {
+    background-image: url(/assets/img/iPhone_13.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    margin-right: -100px;
+    margin-top: 100px;
+}
+
+.kiri h1 {
+    margin-bottom: 20px;
+    ;
+}
+
+.kiri p {
+    margin-bottom: 20px;
+}
+
+.kiri li {
+    margin-bottom: 10px;
+}
+
+.kiri ul {
+    margin-left: 17px;
+}
+
+.aw {
+    position: relative;
+    top: 15px;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    width: 135px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.aw:hover {
+    transform: scale(1.1);
+}
